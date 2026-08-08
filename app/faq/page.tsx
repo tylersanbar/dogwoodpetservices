@@ -78,7 +78,10 @@ export default function FAQPage() {
 
       <section className="section faq-cta">
         <h2>Still have a question?</h2>
-        <p>Call 405-830-5877 or send a booking request with your dates and pet care needs.</p>
+        <p>
+          Call 405-830-5877, email contact@dogwoodpet.services, or send a booking request with your
+          dates and pet care needs.
+        </p>
         <Link className="button primary" href="/#contact">
           Contact Dogwood Pet Services
         </Link>

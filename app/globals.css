@@ -40,6 +40,15 @@
   box-sizing: border-box;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -623,6 +632,29 @@ address {
 .faq-cta {
   align-items: center;
   border-top: 1px solid var(--line);
+}
+
+.confirmation-section {
+  display: grid;
+  min-height: 100vh;
+  align-content: center;
+  gap: 18px;
+}
+
+.confirmation-section h1 {
+  max-width: 780px;
+  color: var(--brand-dark);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.5rem, 7vw, 5.6rem);
+  font-weight: 500;
+  line-height: 1;
+}
+
+.confirmation-section p:not(.section-kicker) {
+  max-width: 680px;
+  color: var(--muted);
+  font-size: 1.1rem;
+  line-height: 1.7;
 }
 
 @media (max-width: 980px) {

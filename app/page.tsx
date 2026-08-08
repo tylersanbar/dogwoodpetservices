@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { sendContactRequest } from "./actions";
 
 const services = [
   {
@@ -327,10 +328,15 @@ export default function Home() {
           </p>
           <address>
             <a href="tel:4058305877">405-830-5877</a>
+            <a href="mailto:contact@dogwoodpet.services">contact@dogwoodpet.services</a>
             <span>31921 Whippoorwill Drive, Norman, OK 73072</span>
           </address>
         </div>
-        <form className="contact-form">
+        <form className="contact-form" action={sendContactRequest}>
+          <label className="sr-only" aria-hidden="true">
+            Website
+            <input name="website" type="text" tabIndex={-1} autoComplete="off" />
+          </label>
           <label>
             Name
             <input name="name" type="text" autoComplete="name" required />
@@ -365,8 +371,7 @@ export default function Home() {
             Send Request
           </button>
           <p className="form-note full-span">
-            Email delivery needs an Erica email address and form provider before this can send live
-            messages.
+            Requests are sent to contact@dogwoodpet.services. You can also email us directly.
           </p>
         </form>
       </section>

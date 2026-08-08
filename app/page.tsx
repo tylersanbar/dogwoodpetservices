@@ -78,21 +78,21 @@ const galleryItems = [
 export default function Home() {
   return (
     <main className="min-h-screen bg-background text-foreground">
-      <section className="hero-section">
+      <section id="home" className="hero-section">
         <nav className="site-nav" aria-label="Main navigation">
-          <a className="brand-mark" href="#home" aria-label="Dogwood Pet Services home">
+          <Link className="brand-mark" href="/#home" aria-label="Dogwood Pet Services home">
             DW
-          </a>
+          </Link>
           <div className="nav-links">
-            <a href="#services">Services</a>
-            <a href="#booking">Booking</a>
-            <a href="#crew">Crew</a>
+            <Link href="/#services">Services</Link>
+            <Link href="/#booking">Booking</Link>
+            <Link href="/#crew">Crew</Link>
             <Link href="/faq">FAQ</Link>
-            <a href="#contact">Contact</a>
+            <Link href="/#contact">Contact</Link>
           </div>
         </nav>
 
-        <div id="home" className="hero-grid">
+        <div className="hero-grid">
           <div className="hero-copy">
             <p className="eyebrow">Peaceful and professional pet care for all kinds</p>
             <h1>Dogwood Pet Services LLC</h1>
@@ -101,9 +101,9 @@ export default function Home() {
               feathered, or scaly.
             </p>
             <div className="hero-actions">
-              <a className="button primary" href="#contact">
+              <Link className="button primary" href="/#contact">
                 Request Booking
-              </a>
+              </Link>
               <a className="button secondary" href="tel:4058305877">
                 Call 405-830-5877
               </a>

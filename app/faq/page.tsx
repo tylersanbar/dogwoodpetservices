@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const faqs = [
   {
-    question: "What services does Tails & Scales offer?",
+    question: "What services does Dogwood Pet Services offer?",
     answer:
       "We offer dog boarding, in-home care, overnight care, and enrichment visits for pets who need extra support, structure, and attention.",
   },
@@ -29,12 +29,12 @@ const faqs = [
   {
     question: "Are there mileage fees for in-home visits?",
     answer:
-      "Visits more than 10 miles from Tails & Scales include added gas mileage.",
+      "Visits more than 10 miles from Dogwood Pet Services include added gas mileage.",
   },
   {
     question: "Where are you located?",
     answer:
-      "Tails & Scales Pet Services LLC is located at 31921 Whippoorwill Drive, Norman, OK 73072.",
+      "Dogwood Pet Services LLC is located at 31921 Whippoorwill Drive, Norman, OK 73072.",
   },
   {
     question: "Do holidays cost more?",
@@ -48,8 +48,8 @@ export default function FAQPage() {
     <main className="min-h-screen bg-background text-foreground">
       <section className="faq-hero">
         <nav className="site-nav" aria-label="FAQ navigation">
-          <Link className="brand-mark" href="/" aria-label="Tails and Scales home">
-            T&S
+          <Link className="brand-mark" href="/" aria-label="Dogwood Pet Services home">
+            D
           </Link>
           <div className="nav-links">
             <Link href="/#services">Services</Link>
@@ -80,7 +80,7 @@ export default function FAQPage() {
         <h2>Still have a question?</h2>
         <p>Call 405-830-5877 or send a booking request with your dates and pet care needs.</p>
         <Link className="button primary" href="/#contact">
-          Contact Tails &amp; Scales
+          Contact Dogwood Pet Services
         </Link>
       </section>
     </main>

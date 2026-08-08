@@ -80,8 +80,8 @@ export default function Home() {
     <main className="min-h-screen bg-background text-foreground">
       <section className="hero-section">
         <nav className="site-nav" aria-label="Main navigation">
-          <a className="brand-mark" href="#home" aria-label="Tails and Scales home">
-            T&S
+          <a className="brand-mark" href="#home" aria-label="Dogwood Pet Services home">
+            DW
           </a>
           <div className="nav-links">
             <a href="#services">Services</a>
@@ -95,7 +95,7 @@ export default function Home() {
         <div id="home" className="hero-grid">
           <div className="hero-copy">
             <p className="eyebrow">Peaceful and professional pet care for all kinds</p>
-            <h1>Tails &amp; Scales Pet Services LLC</h1>
+            <h1>Dogwood Pet Services LLC</h1>
             <p className="hero-subtitle">
               Professional, loving dog boarding and in-home care for every kind of companion - furry,
               feathered, or scaly.
@@ -110,10 +110,10 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="hero-image-wrap" aria-label="Tails and Scales Pet Services brand card">
+          <div className="hero-image-wrap" aria-label="Dogwood Pet Services brand card">
             <Image
               src="/dogwood_brochure.png"
-              alt="Tails and Scales Pet Services illustrated contact card"
+              alt="Dogwood Pet Services illustrated contact card"
               width={990}
               height={559}
               priority
@@ -135,7 +135,7 @@ export default function Home() {
           <h2>A homestead boarding experience built around calm, enrichment, and safety.</h2>
         </div>
         <p>
-          Welcome to Tails and Scales. Our facility is located on our homestead in south Norman,
+          Welcome to Dogwood Pet Services. Our facility is located on our homestead in south Norman,
           away from the hustle and bustle, and nestled right next to our little alpaca farm. We
           create a safe place for pets to peacefully relax and flourish with enrichment-focused,
           small-scale boarding that helps every pet thrive, not just get through the stay.
@@ -162,13 +162,13 @@ export default function Home() {
         </div>
         <p className="fine-print">
           Holiday fees apply during peak travel dates. Mileage fees apply to visits more than 10
-          miles from Tails &amp; Scales.
+          miles from Dogwood Pet Services.
         </p>
       </section>
 
       <section className="section why-section">
         <div className="why-copy">
-          <p className="section-kicker">Why Choose Tails &amp; Scales?</p>
+          <p className="section-kicker">Why Choose Dogwood Pet Services?</p>
           <h2>Care from people who understand that every animal has unique needs.</h2>
           <p>
             We are not just a boarding facility. We are pet lovers with years of experience caring
@@ -259,7 +259,7 @@ export default function Home() {
         </div>
         <div className="crew-intro">
           <p>
-            We are Erica and Brian, owners and staff for Tails and Scales. Together we bring a
+            We are Erica and Brian, owners and staff for Dogwood Pet Services. Together we bring a
             lifetime of animal care experience across pets, veterinary care, exotics, wildlife
             rehabilitation, animal care, and conservation.
           </p>
@@ -269,7 +269,7 @@ export default function Home() {
             <div className="portrait-placeholder">Erica</div>
             <h3>Erica</h3>
             <p>
-              Tails and Scales started as a pet sitting business when Erica was 18. Since then, she
+              Dogwood Pet Services started as a pet sitting business when Erica was 18. Since then, she
               has worked as an exotic animal educator, an office manager at an animal ER, and an
               enrichment coordinator for a raptor rehabilitation center. She is passionate about
               animal welfare, animal rescue, community, education, and sustainability.
@@ -291,7 +291,7 @@ export default function Home() {
       <section className="section review-section">
         <div>
           <p className="section-kicker">Facebook and reviews</p>
-          <h2>Follow Tails &amp; Scales on Facebook.</h2>
+          <h2>Follow Dogwood Pet Services on Facebook.</h2>
           <p>
             See recent updates, community posts, and Facebook reviews from families who trust us
             with their companions.

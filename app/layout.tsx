@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Tails & Scales Pet Services LLC",
+  title: "Dogwood Pet Services LLC",
   description:
     "Professional, loving dog boarding and in-home care for every kind of companion in Norman, Oklahoma.",
 };

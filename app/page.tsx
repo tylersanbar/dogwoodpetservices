@@ -8,7 +8,7 @@ const services = [
     price: "$40 per dog",
     details: [
       "$30 for each additional dog in the same kennel",
-      "Holiday rate: $45 for the first dog, $30 for each additional dog in the same kennel",
+      "Holiday rate: $50 for the first dog, $40 for each additional dog in the same kennel",
       "Daily enrichment included with every stay",
     ],
   },
@@ -329,7 +329,7 @@ export default function Home() {
           <address>
             <a href="tel:4058305877">405-830-5877</a>
             <a href="mailto:contact@dogwoodpet.services">contact@dogwoodpet.services</a>
-            <span>31921 Whippoorwill Drive, Norman, OK 73072</span>
+            <span>31901 Whippoorwill Drive, Norman, OK 73072</span>
           </address>
         </div>
         <form className="contact-form" action={sendContactRequest}>

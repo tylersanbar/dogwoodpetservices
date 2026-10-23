@@ -11,6 +11,11 @@ const faqs = [
     answer:
       "Dog boarding is $40 per dog. Each additional dog sharing the same kennel is $30. Holiday stays are $45 for the first dog and $30 for each additional dog in the same kennel.",
   },
+    {
+    question: "What are the requirements for boarding my dog?",
+    answer:
+      "We require that dogs are up to date on rabies, DHPP, Bordetella, and flea and tick prevention.",
+  },
   {
     question: "Are enrichment activities included?",
     answer:
@@ -34,7 +39,7 @@ const faqs = [
   {
     question: "Where are you located?",
     answer:
-      "Dogwood Pet Services LLC is located at 31921 Whippoorwill Drive, Norman, OK 73072.",
+      "Dogwood Pet Services LLC is located at 31901 Whippoorwill Drive, Norman, OK 73072.",
   },
   {
     question: "Do holidays cost more?",

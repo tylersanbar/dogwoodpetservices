@@ -44,7 +44,7 @@ const faqs = [
   {
     question: "Do holidays cost more?",
     answer:
-      "Yes. Holiday boarding is $45 for the first dog and $30 for each additional dog sharing the same kennel.",
+      "Yes. Holiday boarding is $50 for the first dog and $40 for each additional dog sharing the same kennel.",
   },
 ];
 
